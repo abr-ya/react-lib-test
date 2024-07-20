@@ -1,0 +1,9 @@
+export { default as ActsPage } from "./ActsPage/ActsPage";
+export { default as Components } from "./Components/Components";
+export { default as Error404 } from "./Error/Error404";
+export { default as DesignSystemTest } from "./DesignSystemTest/DesignSystemTest";
+export { default as Home } from "./Home/Home";
+export { default as List } from "./List/List";
+export { default as Register } from "./Register/Register";
+export { default as SelectPage } from "./SelectPage/SelectPage";
+export { default as Test } from "./Test/Test";

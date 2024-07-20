@@ -1,0 +1,43 @@
+/*! purgecss start ignore */
+
+@font-face {
+  font-weight: normal;
+  font-family: 'SBSansUI';
+  font-style: normal;
+  src: url('./fonts/SBSansUI-Regular.ttf') format('truetype'),
+    url('./fonts/SBSansUI-Regular.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Regular.woff') format('woff'),
+    url('./fonts/SBSansUI-Regular.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'SBSansUI';
+  font-style: normal;
+  src: url('./fonts/SBSansUI-Bold.ttf') format('truetype'),
+    url('./fonts/SBSansUI-Bold.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Bold.woff') format('woff'),
+    url('./fonts/SBSansUI-Bold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'SBSansUI';
+  font-style: normal;
+  src: url('./fonts/SBSansUI-Semibold.ttf') format('truetype'),
+    url('./fonts/SBSansUI-Semibold.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Semibold.woff') format('woff'),
+    url('./fonts/SBSansUI-Semibold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: 'SBSansUI';
+  font-style: normal;
+  src: url('./fonts/SBSansUI-Light.ttf') format('truetype'),
+    url('./fonts/SBSansUI-Light.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Light.woff') format('woff'),
+    url('./fonts/SBSansUI-Light.svg#svgFontName') format('svg');
+}
+
+/*! purgecss end ignore */
