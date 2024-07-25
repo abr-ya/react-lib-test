@@ -2,6 +2,7 @@
 const { merge } = require("webpack-merge");
 const commonConfig = require("./common.cjs");
 const ReactRefreshPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const { ModuleFederationPlugin } = require("webpack").container;
 
 module.exports = merge(commonConfig, {
   mode: "development",
@@ -25,5 +26,14 @@ module.exports = merge(commonConfig, {
     },
   },
   devtool: "cheap-module-source-map",
-  plugins: [new ReactRefreshPlugin()],
+  plugins: [
+    new ReactRefreshPlugin(),
+    new ModuleFederationPlugin({
+      name: "host",
+      remotes: {
+        remote2: "remote2@https://hello-rsb.netlify.app/remoteentry.js",
+      },
+      // shared: ["react", "react-dom"],
+    }),
+  ],
 });

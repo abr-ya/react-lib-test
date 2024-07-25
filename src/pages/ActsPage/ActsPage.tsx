@@ -2,7 +2,7 @@ import { Page } from "@cars/design-system";
 
 import SearchContainer from "./SearchContainer/SearchContainer";
 import ListContainer from "./ListContainer/ListContainer";
-import FooterContainer from './FooterContainer/FooterContainer';
+import FooterContainer from "./FooterContainer/FooterContainer";
 
 const ActsPage = () => (
   <Page.Container>

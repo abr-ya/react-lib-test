@@ -3,8 +3,8 @@ import { Caption1, H2Size24Semibold } from "@cars/uikit";
 
 const DesignSystemTest = () => {
   const clickHandler = () => {
-    console.log('click!');
-  }
+    console.log("click!");
+  };
 
   return (
     <Page>
